@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+}
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+p {
+    margin: 0;
+}
+.header {
+    text-align: center;
+    margin: 10px 0;
+}
+.header p {
+    font-size: 14px;
+}
+.section {
+    margin: 20px 0;
+}
+.section-title {
+    font-weight: bold;
+}
+.section-item {
+    margin: 10px 0;
+}
+.section-item-title-left {
+    font-weight: bold;
+}
+.section-item-content-left {
+    font-style: italic;
+}
+.section-item-title-right {
+    text-align: right;
+    font-weight: bold;
+}
+.section-item-content-right {
+    text-align: right;
+    font-style: italic;
+}
+.section-item ul {
+    margin: 0;
+    padding: 0 0 0 20px;
+}
+    
+.left-half, .right-half {
+    width: 50%;
+    float: left;
+}
+hr { 
+    display: block;
+    margin-end: auto;
+    margin-start: auto;
+    border: 1px inset;
+    overflow: hidden;
+    margin-before: 0.5em;
+    margin-after: 0.5em;
+}
